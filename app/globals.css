@@ -32,3 +32,12 @@ h3 {
   font-family: var(--font-heading);
   font-weight: 300;
 }
+
+@layer components {
+  .eyebrow {
+    @apply text-lg uppercase leading-8 tracking-[0.12em];
+  }
+  .link-underline {
+    @apply inline-block border-b border-text pb-1 text-base uppercase tracking-[0.15em];
+  }
+}
