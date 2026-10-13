@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function HopeIntro() {
   return (
-    <section className="bg-bg px-[6vw] py-16 lg:py-28">
+    <section id="about" className="bg-bg px-[6vw] py-16 lg:py-28">
       <div className="mx-auto max-w-6xl lg:grid lg:grid-cols-[1.1fr_0.9fr] lg:gap-x-[6vw]">
         {/* Left: heading + intro */}
         <div>
@@ -26,7 +26,7 @@ export default function HopeIntro() {
         <div className="relative mt-12 aspect-4/3 w-full bg-bg-alt lg:mt-0 lg:aspect-auto lg:min-h-80">
           <Image
             src="/images/story.jpg"
-            alt="Calm waves washing onto the shore"
+            alt="A family walking along the shoreline"
             fill
             sizes="(min-width: 1024px) 40vw, 90vw"
             className="object-cover"
