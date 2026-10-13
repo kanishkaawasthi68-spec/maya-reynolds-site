@@ -1,9 +1,10 @@
 @import "tailwindcss";
 
-/* Redesign ke time sirf ye 4 colors badalne hain */
+/* Redesign ke time sirf ye 5 colors badalne hain */
 :root {
   --bg: #f4f0ea;
   --bg-alt: #ddd2c1;
+  --surface: #ffffff;
   --text: #3a3a3a;
   --accent: #7fa6a6;
 }
@@ -11,6 +12,7 @@
 @theme inline {
   --color-bg: var(--bg);
   --color-bg-alt: var(--bg-alt);
+  --color-surface: var(--surface);
   --color-text: var(--text);
   --color-accent: var(--accent);
 
@@ -35,9 +37,9 @@ h3 {
 
 @layer components {
   .eyebrow {
-    @apply text-lg uppercase leading-8 tracking-[0.12em];
+    @apply text-[0.95rem] uppercase leading-8 tracking-[0.12em];
   }
   .link-underline {
-    @apply inline-block border-b border-text pb-1 text-base uppercase tracking-[0.15em];
+    @apply inline-block border-b border-text pb-1 text-[0.78rem] uppercase tracking-[0.15em];
   }
 }
