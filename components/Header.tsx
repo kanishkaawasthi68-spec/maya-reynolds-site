@@ -16,7 +16,7 @@ export default function Header() {
 
   return (
     <header className="relative z-20 bg-bg">
-      <div className="flex items-center justify-between px-[8vw] py-8 lg:min-h-49.5 lg:px-[6vw]">
+      <div className="flex items-center justify-between px-[8vw] py-8 lg:min-h-40 lg:pl-[6vw] lg:pr-[5vw]">
         <Link href="/" className="leading-none">
           <span className="block font-heading text-[2.45rem] lg:text-[2.65rem]">Conejo Valley</span>
           <span className="mt-2 block text-[0.77rem] uppercase tracking-[0.4em] text-accent lg:text-[0.83rem]">
@@ -32,7 +32,7 @@ export default function Header() {
           ))}
           <a
             href="#contact"
-            className="rounded-full border border-text px-6 py-3.5 text-[0.8rem] uppercase tracking-[0.15em] hover:bg-text hover:text-bg"
+            className="rounded-full border border-text px-5 py-3 text-[0.75rem] uppercase tracking-[0.15em] hover:bg-text hover:text-bg"
           >
             Contact
           </a>

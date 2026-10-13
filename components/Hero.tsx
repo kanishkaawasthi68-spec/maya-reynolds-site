@@ -3,10 +3,12 @@ import Image from "next/image";
 export default function Hero() {
   return (
     <section className="relative lg:grid lg:min-h-205 lg:grid-cols-[35%_1fr]">
-      <div className="order-1 flex flex-col px-[6vw] pb-6 pt-[5.25rem] lg:order-2 lg:pb-16 lg:pl-[7vw] lg:pr-[10vw] lg:pt-2">
-        <p className="eyebrow">Online &amp; in-person counseling in Newbury Park &amp; across CA</p>
+      <div className="order-1 flex flex-col px-[6vw] pb-6 pt-[5.25rem] lg:order-2 lg:pb-16 lg:pl-[8.3vw] lg:pr-[13.5vw] lg:pt-1">
+        <p className="eyebrow lg:max-w-108 lg:text-[0.85rem] lg:leading-7">
+          Online &amp; in-person counseling in Newbury Park &amp; across CA
+        </p>
 
-        <div className="mt-10 lg:mt-48">
+        <div className="mt-10 lg:mt-37">
           <h1 className="text-[2.4rem] leading-tight lg:text-[3.85rem] lg:leading-[1.28]">
             Rebuild your foundation on solid ground and finally begin to{" "}
             <span className="font-script text-[1.5em] leading-none text-accent">thrive.</span>
